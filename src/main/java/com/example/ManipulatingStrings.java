@@ -4,16 +4,20 @@ import java.util.Scanner;
 // Give students a specified input and outputh they're supposed to get
 public class ManipulatingStrings
 {
-    //ManipulatingStrings manipulator = new ManipulatingStrings();
     int phraseLength;
     int middleIndex;
-    String phrase = new String ("cupcakes"); 
-    String switchedPharse;
-
-    public static void main (String[] args)
-    {
-                  
-
+    
+        public static void main (String[] args)
+        {
+        ManipulatingStrings manipulator = new ManipulatingStrings();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your city");
+        String city = scan.nextLine();
+        System.out.println("Enter your state");
+        String state = scan.nextLine();
+        System.out.println(state.toUpperCase() + city.toLowerCase() + state.toUpperCase());
+  
+        manipulator.printPhraseInfo("This is a String test.");          
     }
 
     public String findMiddle3(String p) {
