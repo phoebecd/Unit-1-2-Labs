@@ -51,9 +51,4 @@ public class ManipulatingStringsTest {
                         "\nOriginal phrase: This is a String test.\nLength of the phrase: 22\nIndex of the middle: 11\nCharacter at the middle index: t\nSwitched phrase: tring*test.This*is*a*S\nMiddle 3: Str\n\n";
         assertEquals(expectedOutput, text);
     }
-
-
-
-
-
 }
