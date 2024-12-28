@@ -9,7 +9,7 @@ public class ManipulatingStrings
     public static void main (String[] args)
     {
         ManipulatingStrings manipulator = new ManipulatingStrings();
-        manipulator.printPhraseInfo("Florida");          
+        manipulator.printPhraseInfo("This is a String test.");          
     }
 
     public String findMiddle3(String p) {
